@@ -1,1 +1,5 @@
-LS0tCnRpdGxlOiBUZXN0IEZpbGUKLS0tCgpUaGlzIGlzIGEgc2ltcGxlIHRlc3QgZmlsZSB3aXRoIG5vcm1hbCBBU0NJSSBjb250ZW50Lgo=
+---
+title: Test File
+---
+
+This is a simple test file with normal ASCII content.

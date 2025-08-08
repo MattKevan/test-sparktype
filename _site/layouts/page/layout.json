@@ -1,1 +1,23 @@
-ewogICJuYW1lIjogIlN0YW5kYXJkIHBhZ2UiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAiQSBjbGVhbiwgc2luZ2xlLWNvbHVtbiBsYXlvdXQgZm9yIHN0YW5kYXJkIHBhZ2VzIGxpa2UgJ0Fib3V0IFVzJy4iLAogICJsYXlvdXRUeXBlIjogInBhZ2UiLAogICJmaWxlcyI6IFsKICAgIHsgInBhdGgiOiAibGF5b3V0Lmpzb24iLCAidHlwZSI6ICJtYW5pZmVzdCIgfSwKICAgIHsgInBhdGgiOiAiaW5kZXguaGJzIiwgInR5cGUiOiAidGVtcGxhdGUiIH0KICBdLAogIAogICJpbWFnZV9wcmVzZXRzIjogewogICAgImJhbm5lciI6IHsKICAgICAgInNvdXJjZSI6ICJiYW5uZXJfaW1hZ2UiLAogICAgICAid2lkdGgiOiA5MDAsCiAgICAgICJjcm9wIjogInNjYWxlIgogICAgfSwKICAgICJmZWF0dXJlZCI6IHsKICAgICAgInNvdXJjZSI6ICJmZWF0dXJlZF9pbWFnZSIsCiAgICAgICJ3aWR0aCI6IDYwMCwKICAgICAgImNyb3AiOiAic2NhbGUiCiAgICB9CiAgfQp9
+{
+  "name": "Standard page",
+  "version": "1.0.0",
+  "description": "A clean, single-column layout for standard pages like 'About Us'.",
+  "layoutType": "page",
+  "files": [
+    { "path": "layout.json", "type": "manifest" },
+    { "path": "index.hbs", "type": "template" }
+  ],
+  
+  "image_presets": {
+    "banner": {
+      "source": "banner_image",
+      "width": 900,
+      "crop": "scale"
+    },
+    "featured": {
+      "source": "featured_image",
+      "width": 600,
+      "crop": "scale"
+    }
+  }
+}

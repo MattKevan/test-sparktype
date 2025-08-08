@@ -1,1 +1,11 @@
-PGZvb3RlciBjbGFzcz0iYm9yZGVyLXQgYm9yZGVyLWJvcmRlciBtdC1hdXRvIj4KICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBweS04Ij4KICAgICAgICB7eyNpZiAodGhlbWVEYXRhICdmb290ZXJfdGV4dCcpfX0KICAgICAgICAgICAgPGRpdiBjbGFzcz0idGV4dC1jZW50ZXIgdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICB7e3t0aGVtZURhdGEgJ2Zvb3Rlcl90ZXh0J319fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICB7e2Vsc2V9fQogICAgICAgICAgICA8cCBjbGFzcz0idGV4dC1jZW50ZXIgdGV4dC1tdXRlZCI+wqkge3t5ZWFyfX0ge3ttYW5pZmVzdC50aXRsZX19LiBBbGwgUmlnaHRzIFJlc2VydmVkLjwvcD4KICAgICAgICB7ey9pZn19CiAgICA8L2Rpdj4KPC9mb290ZXI+
+<footer class="border-t border-border mt-auto">
+    <div class="container py-8">
+        {{#if (themeData 'footer_text')}}
+            <div class="text-center text-muted">
+                {{{themeData 'footer_text'}}}
+            </div>
+        {{else}}
+            <p class="text-center text-muted">© {{year}} {{manifest.title}}. All Rights Reserved.</p>
+        {{/if}}
+    </div>
+</footer>
